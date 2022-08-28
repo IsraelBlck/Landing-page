@@ -76,7 +76,6 @@ button {
 }
 .header img {
     max-width: 500px; 
-   
     border-radius: 10px;
 }
 
@@ -87,4 +86,48 @@ button {
     height: 100%;
     padding-top: 50px;
     gap: 20px;
+}
+
+.boxes {
+    min-height: 500px;
+   
+}
+.boxes-items img {
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+}
+.boxes .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    
+}
+.boxes-items p {
+    color: #1f2937;
+}
+.boxes-items a {
+    text-decoration: none;
+    color: #1f2937;
+    cursor: pointer;
+}
+.boxes h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 39px;
+}
+.box {
+    flex: 1;
+    background:#0a51cc;
+    border-radius: 10px;
+    color: #fff;
+    margin: 20px 10px;
+}
+.boxes .boxes-items {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   
 }
