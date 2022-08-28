@@ -154,3 +154,38 @@ button {
     float: right;
     font-weight: bolder;
 }
+.sign-up {
+    height: 400px;
+}
+.sign-up .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.sign-up .sign-up-placeholder {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 20px 80px;
+    gap: 80px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 900px;
+}
+.sign-up-placeholder {
+    align-items: center;
+}
+.sign-up-placeholder h5 {
+    line-height: .80;
+    color: white;
+}
+.sign-up-placeholder p {
+    line-height: 1;
+    color: white;
+    font-size: 12px;
+}   
+
+.sign-up-placeholder button {
+    border: 1px solid white;
+}
